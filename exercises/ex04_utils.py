@@ -28,14 +28,14 @@ def max(my_list: list[int]) -> int:
     max_num: int = my_list[0]
     while idx < len(my_list):
         current_num: int = my_list[idx]
-        if current_num > max_num:
+        if current_num > max_num: 
             max_num = current_num
         idx += 1
     
     return max_num
 
 
-def is_equal(l1: list[int], l2:list[int]) -> bool:
+def is_equal(l1: list[int], l2: list[int]) -> bool:   
     """First check - whether length matches?"""
     if len(l1) != len(l2):
         return False
